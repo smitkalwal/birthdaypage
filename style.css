@@ -128,7 +128,7 @@ img {
     padding-top: 250px;
 }
 
-h2 {
+.type-wrap h2 {
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
