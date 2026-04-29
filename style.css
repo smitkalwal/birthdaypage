@@ -127,3 +127,8 @@ img {
     position: absolute;
     padding-top: 250px;
 }
+
+h2 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
