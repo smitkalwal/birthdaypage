@@ -123,12 +123,15 @@ img {
 .cake {
     transform: translateY(-50%);
     transform: translateX(-50%);
-    left: 50%;
+    left: 45%;
     position: absolute;
-    padding-top: 250px;
+    padding-top: 300px;
 }
 
-.type-wrap h2 {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+#typed {
+  white-space: normal !important;
+  display: inline-block;
+  max-width: 90%;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
