@@ -24,8 +24,9 @@ $('#play').click(function () {
 });
 var typed = new Typed("#typed", {
     stringsElement: '#typed-strings',
-    typeSpeed: 50,
-    backSpeed: 30,
+    typeSpeed: 30,
+    backSpeed: 10,
+    loop: true
 });
 var retina = window.devicePixelRatio,
 
